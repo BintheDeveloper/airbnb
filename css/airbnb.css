@@ -1,3 +1,81 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~여기부터 경원헤더~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+header{
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 73px;
+  z-index: 1;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-bottom:1px solid #D3D3D3;
+  font-size: 0;
+  box-shadow: 0 6px 5px -5px rgb(221, 221, 221);
+}
+
+header .logo{
+  width: 105px;
+  height: auto;
+  justify-self: flex-start;
+  margin-left: 90px;
+}
+
+header .search{
+  display: flex;
+  border-style: solid;
+  border-color: rgb(221, 221, 221);
+  border-radius: 40px;
+  border-width: 1px;
+  align-content: center;
+  padding: 8px 7px;
+}
+
+header .search .search-bar::placeholder {
+  color: black;
+  font-weight: 620;
+  font-size: 10.5pt;
+}
+
+header .search .search-bar{
+  border: none;
+  color: black;
+  font-weight: 620;
+  font-size: 11pt;
+  padding-right: 60px;
+  padding-left: 16px;
+}
+
+header .search img.search-icon{
+  width: 32px;
+  height: auto;
+}
+
+header .buttons{
+  display: flex;
+  align-items: center;
+  margin-right: 120px;
+}
+
+header .host-button{
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  font-size: 10.5pt;
+  padding: 7px 14px;
+  border-color: black;
+  border-radius: 5pt;
+  border-width: 1px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+header .top-icon-bar{
+  width: 130px;
+  height: auto;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~여기까지 경원헤더~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~여기부터.. 이건뭘까? ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .hosting{
   
 }
@@ -35,8 +113,7 @@ ul li{
   margin-left: 20px;
 }
 
-/* ------------------------Seung Ryeol's CSS ---------------- */
-
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~여기부터 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .landingpage {
   display: flex;
   flex-direction: column;
@@ -142,3 +219,64 @@ ul li{
   font-weight: 600;
   color: #222222;
 }
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~여기까지 승렬바디~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~여기부터 경원푸터~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+footer{
+  font-family: Malgun Gothic;
+  font-size: 10.5pt;
+  background-color: rgb(247, 247, 247);
+  padding-left: 18px;
+  padding-right: 40px;
+}
+
+footer .linked-text:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+footer .stitle{
+  font-size: 9pt;
+  font-weight: bold;
+}
+
+footer .sitemap{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 94%;
+  height: 80%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-top: 1px solid rgb(221, 221, 221); 
+}
+
+footer .intro, footer .community, footer .host, footer .support{
+ display:flex;
+ flex-direction: column;
+}
+
+footer .support{
+  padding-right: 15px;
+}
+
+footer .bottom{
+  margin-left: 5%;
+  margin-right: 5%;
+  border-top: 1px solid rgb(221, 221, 221); 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0px;
+}
+
+footer .bottom img.bottom-icon{
+  width: 420px;
+  height: auto;
+}
+
+footer div div span{
+  margin-bottom: 2.5px;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~여기까지 경원푸터~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
