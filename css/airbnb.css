@@ -53,7 +53,7 @@ header .search img.search-icon{
 header .buttons{
   display: flex;
   align-items: center;
-  margin-right: 120px;
+  margin-right: 100px;
 }
 
 header .host-button{
@@ -76,7 +76,7 @@ header .top-icon-bar{
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~여기까지 경원헤더~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~여기부터.. 이건뭘까? ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~여기부터 재빈바디 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .hosting{
   margin-bottom: 50px;
 }
