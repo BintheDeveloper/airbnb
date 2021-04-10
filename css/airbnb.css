@@ -7,8 +7,6 @@
 .background {
   display: flex;
   justify-content: center;
-  border-radius : 10%;
-  width: 100%;
 }
 
 .background img{
@@ -24,7 +22,6 @@
 .box{
   position: relative;
   display: flex;
-  flex-wrap: wrap;
 }
 
 .h-texts{
@@ -57,7 +54,7 @@
   align-items: center;
 }
 
-.youguys{
+.behost{
     font-size: 48px; 
     line-height: 36px; 
     color: white;
@@ -65,7 +62,7 @@
     white-space: pre-wrap;
 }
 
-.emptyspace{
+.shares{
     padding-top: 12px;
     font-size: 18px;
     line-height: 20px;
@@ -80,7 +77,7 @@ ul li{
   padding-left: 0px;
 }
 
-.buttons{
+.body{
   display: flex;
   justify-content: center;
   overflow: auto;
@@ -97,19 +94,20 @@ ul li{
 }
 
 .activity img{
-  width: 430px
+  width: 430px;
+  height: 430px;
 }
 
-.buttons span{
+.body span{
   font-size: 14px;
   font-weight: normal ;
 }
 
-.buttons img{
+.body img{
   border-radius: 10px;
 }
 
-.buttons .a{
+.body .a{
 margin-left: 5px;
 margin-right: 5px;
 }
@@ -127,7 +125,7 @@ margin-right: 5px;
   font-size: 26px;
 }
 
-.activity .activity-head{
+.activity .head{
   padding-bottom: 10px;
 }
 
