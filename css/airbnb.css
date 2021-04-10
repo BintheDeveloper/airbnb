@@ -10,6 +10,7 @@ header{
   border-bottom:1px solid #D3D3D3;
   font-size: 0;
   box-shadow: 0 6px 5px -5px rgb(221, 221, 221);
+  top: 0;
 }
 
 header .logo{
@@ -52,7 +53,7 @@ header .search img.search-icon{
 header .buttons{
   display: flex;
   align-items: center;
-  margin-right: 120px;
+  margin-right: 100px;
 }
 
 header .host-button{
@@ -66,6 +67,7 @@ header .host-button{
   border-width: 1px;
   margin-right: 10px;
   cursor: pointer;
+  min-width: 105px;
 }
 
 header .top-icon-bar{
@@ -74,7 +76,7 @@ header .top-icon-bar{
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~여기까지 경원헤더~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~여기부터.. 이건뭘까? ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~여기부터 재빈바디 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .hosting{
   margin-bottom: 50px;
 }
