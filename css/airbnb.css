@@ -1,38 +1,80 @@
+/* 재빈 부분 */
+
 .hosting{
-  
+  margin-bottom: 50px;
 }
 
 .background {
+  display: flex;
+  justify-content: center;
+}
+
+.background img{
+  width: 1300px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.background a{
+  margin-top: 50px;
+}
+
+.box{
   position: relative;
-  border-radius : 10%;
+  display: flex;
 }
 
 .h-texts{
-  position: absolute;
-  top: 0px;
-  width: 30%;
-  left: 50px;
+  position: absolute ;
+  top: 0px ;
+  display: flex ;
+  flex-flow: column ;
+  flex-wrap: wrap;
+  justify-content : center;
+  align-items: flex-start;
+  text-align: left ;
+  width: 360px ;
+  height: 100%;
+  padding-right: 80px;
+  padding-left: 80px;
+  z-index: 1 ;
 }
 
-.youguys{
-    font-size: 30px; 
+.h-texts span{
+  line-height: 110%;
+}
+
+.activity p{
+  margin: 0px;
+  padding-left: 50px;
+}
+
+.link{
+  display: flex;
+  align-items: center;
+}
+
+.behost{
+    font-size: 48px; 
     line-height: 36px; 
     color: white;
     font-weight: 600;
     white-space: pre-wrap;
 }
 
-.emptyspace{
-    font-size: 16px;
+.shares{
+    padding-top: 12px;
+    font-size: 18px;
     line-height: 20px;
     letter-spacing: normal;
     color: white;
 }
 
 ul li{
-  float: left;
+  -webkit-padding-start: 0px;
   list-style-type: none;
-  margin-left: 20px;
+  width: 240px;
+  padding-left: 0px;
 }
 
 /* ------------------------Seung Ryeol's CSS ---------------- */
@@ -142,3 +184,80 @@ ul li{
   font-weight: 600;
   color: #222222;
 }
+.body{
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  padding-left:0px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.activity{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 40px 0px;
+}
+
+.activity img{
+  width: 430px;
+  height: 430px;
+}
+
+.body span{
+  font-size: 14px;
+  font-weight: normal ;
+}
+
+.body img{
+  border-radius: 10px;
+}
+
+.body .a{
+margin-left: 5px;
+margin-right: 5px;
+}
+
+.activity p{
+  padding-left: 100px;
+}
+
+.activity .text1{
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.activity .text2{
+  font-size: 26px;
+}
+
+.activity .head{
+  padding-bottom: 10px;
+}
+
+.h-texts .link{
+  cursor: pointer ;
+  display: inline-block ;
+  position: relative ;
+  text-align: center ;
+  text-decoration: none ;
+  width: auto ;
+  touch-action: manipulation ;
+  font-weight: 600 ;
+  font-size: 14px ;
+  line-height: 18px ;
+  letter-spacing: normal;
+  color: black;
+  padding: 9px 16px ;
+  border: 0px ;
+  background: rgb(255, 255, 255) ;
+  border-radius: 8px ;
+}
+
+.a a{
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+/* 재빈 부분 */
