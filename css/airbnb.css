@@ -10,6 +10,7 @@ header{
   border-bottom:1px solid #D3D3D3;
   font-size: 0;
   box-shadow: 0 6px 5px -5px rgb(221, 221, 221);
+  top: 0;
 }
 
 header .logo{
@@ -66,6 +67,7 @@ header .host-button{
   border-width: 1px;
   margin-right: 10px;
   cursor: pointer;
+  min-width: 105px;
 }
 
 header .top-icon-bar{
@@ -83,6 +85,10 @@ header .top-icon-bar{
   display: flex;
   padding-left: 70px;
   padding-right: 70px;
+  border-right-color: rgba(0, 0, 0, 0);
+  border-right-style: solid;
+  border-right-width: 13px;
+
 }
 
 .background img{
@@ -268,14 +274,19 @@ ul li{
 
 .activity .body{
   display: flex;
+  flex: 1;
   justify-content: space-between;
-  padding-left:0px;
   font-size: 18px;
   font-weight: 600;
 }
 
 .activity .body .a{
-justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  border-right-color: rgba(0, 0, 0, 0);
+  border-right-style: solid;
+  border-right-width: 13px;
+
 }
 
 .activity .body span{
